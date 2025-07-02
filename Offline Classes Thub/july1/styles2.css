@@ -1,0 +1,42 @@
+::selection {
+  background: yellow;
+  color: black;
+}
+
+:root{
+    --first: red;
+}
+.parent{
+    height: 800px;
+    width: 1400px;
+    border: 2px solid black;
+    position: relative;
+    
+    display: flex;
+}
+#boxes{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.child1{
+    background-color: saddlebrown;
+    position: absolute;
+    top:450px;
+    align-content: center;
+    left: 900px;
+    animation: name 10s  delay iteration-count direction fill-mode;
+}
+.child2{
+    background-color: rgb(219, 219, 31);
+    height: 100px;
+    width: 100px;
+}
+.child3{
+    background-color: darkslateblue;
+    height: 100px;
+    width: 100px;
+}
+@keyframes name{
+
+}

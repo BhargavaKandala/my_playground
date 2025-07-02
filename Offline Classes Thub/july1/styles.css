@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; 
+    top: 200px;
+    transform-style: preserve-3d;
+    transition: transform 1s linear;
+}
+.box1{
+    top:0;
+    position: absolute;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+}
+.box2{
+    top:0;
+    position: absolute;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.parent:hover{
+    transform:  rotateY(180deg);
+}
