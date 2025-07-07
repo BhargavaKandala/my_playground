@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    perspective: 800px;
+}
+.bar{
+    height: 2px;
+    width: 400px;
+    background-color: white;
+    border-radius: 50%;
+    animation: rotator 3s linear 0.1s infinite both;
+    transform-style: preserve-3d;
+}
+@keyframes rotator {
+    0% {
+        transform: rotateZ(0deg);
+        background-color: white;
+    }
+    5.56% {
+        transform: rotateZ(20deg);
+        background-color: black;
+    }
+    11.11% {
+        transform: rotateZ(40deg);
+        background-color: white;
+    }
+    16.67% {
+        transform: rotateZ(60deg);
+        background-color: black;
+    }
+    22.22% {
+        transform: rotateZ(80deg);
+        background-color: white;
+    }
+    27.78% {
+        transform: rotateZ(100deg);
+        background-color: black;
+    }
+    33.33% {
+        transform: rotateZ(120deg);
+        background-color: white;
+    }
+    38.89% {
+        transform: rotateZ(140deg);
+        background-color: black;
+    }
+    44.44% {
+        transform: rotateZ(160deg);
+        background-color: white;
+    }
+    50% {
+        transform: rotateZ(180deg);
+        background-color: black;
+    }
+    55.56% {
+        transform: rotateZ(200deg);
+        background-color: white;
+    }
+    61.11% {
+        transform: rotateZ(220deg);
+        background-color: black;
+    }
+    66.67% {
+        transform: rotateZ(240deg);
+        background-color: white;
+    }
+    72.22% {
+        transform: rotateZ(260deg);
+        background-color: black;
+    }
+    77.78% {
+        transform: rotateZ(280deg);
+        background-color: white;
+    }
+    83.33% {
+        transform: rotateZ(300deg);
+        background-color: black;
+    }
+    88.89% {
+        transform: rotateZ(320deg);
+        background-color: white;
+    }
+    94.44% {
+        transform: rotateZ(340deg);
+        background-color: black;
+    }
+    100% {
+        transform: rotateZ(360deg);
+        background-color: white;
+    }
+}
