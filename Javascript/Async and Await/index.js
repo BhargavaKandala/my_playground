@@ -1,22 +1,22 @@
-// async function nadi(){
+async function nadi(){
     
-//     setTimeout(()=>{
-//         console.log("This is a Labrador bolthe!!");
-//     }, 3000);
+    setTimeout(()=>{
+        console.log("This is a Labrador bolthe!!");
+    }, 3000);
     
-// }
+}
 
-// let val = nadi;
-// nadi();
+let val = nadi;
+nadi();
 
-// async function getData(){
-//     let response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+async function getData(){
+    let response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
 
-//     //parse json - async
-//     let data = await response.json();
-//     console.log(data);
-// }
-// getData();
+    //parse json - async
+    let data = await response.json();
+    console.log(data);
+}
+getData();
 
 const myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
