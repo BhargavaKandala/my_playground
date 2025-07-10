@@ -1,3 +1,6 @@
+::root{
+    --progress-degree: grey;
+}
 *{
     margin: 0;
     padding: 0;
