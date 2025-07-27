@@ -1,0 +1,26 @@
+.menu {
+    position: absolute;
+    top: 50px;
+    left: -300px; 
+    width: 200px;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease;
+    height: 100px;
+}
+.menu.active {
+    left: 0px; 
+}
+.close-btn {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.close-btn.active {
+    display: inline-block;
+}
